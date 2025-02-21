@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj": {}
+    "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj": {}
   },
   "projects": {
-    "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj": {
+    "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj",
+        "projectUniqueName": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj",
         "projectName": "FastInventory",
-        "projectPath": "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj",
-        "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding Projects\\FastInventory\\FastInventory\\obj\\",
+        "projectPath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj",
+        "packagesPath": "C:\\Users\\garpbarn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\garpbarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,11 @@
             "targetAlias": "net9.0-android",
             "projectReferences": {}
           },
-          "net9.0-ios18.1": {
+          "net9.0-ios18.2": {
             "targetAlias": "net9.0-ios",
             "projectReferences": {}
           },
-          "net9.0-maccatalyst18.1": {
+          "net9.0-maccatalyst18.2": {
             "targetAlias": "net9.0-maccatalyst",
             "projectReferences": {}
           },
@@ -61,7 +61,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0-android35.0": {
@@ -78,7 +78,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )",
+              "version": "[9.0.2, )",
               "autoReferenced": true
             },
             "sqlite-net-pcl": {
@@ -105,9 +105,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-ios18.1": {
+        "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
@@ -121,7 +121,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )",
+              "version": "[9.0.2, )",
               "autoReferenced": true
             },
             "sqlite-net-pcl": {
@@ -148,9 +148,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
-        "net9.0-maccatalyst18.1": {
+        "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
@@ -164,7 +164,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )",
+              "version": "[9.0.2, )",
               "autoReferenced": true
             },
             "sqlite-net-pcl": {
@@ -192,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
@@ -235,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
