@@ -29,6 +29,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -39,6 +40,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
 
         }
@@ -50,6 +52,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -60,6 +63,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -70,6 +74,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -80,6 +85,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -90,6 +96,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -106,6 +113,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -116,6 +124,7 @@ namespace FastInventory
             if (!String.IsNullOrEmpty(serialNumber))
             {
                 AddAsset(model, serialNumber);
+                GetStockCounts();
             }
         }
 
@@ -169,7 +178,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetZQ630StockCount();
-                ZQ630Label.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -180,7 +189,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetHPG6StockCount();
-                HPG6Label.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -191,7 +200,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetHPG7StockCount();
-                HPG7Label.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -202,7 +211,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetLenovoStockCount();
-                LenovoLabel.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -213,7 +222,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetThinClientStockCount();
-                TCLabel.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -224,7 +233,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetZD620StockCount();
-                ZD620Label.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -235,7 +244,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetTabletStockCount();
-                RadioLabel.Text = count.ToString();
+                GetStockCounts();
             }
         }
 
@@ -246,7 +255,7 @@ namespace FastInventory
             {
                 RemoveAsset(serialNumber);
                 int count = await ItemCounts.GetTabletStockCount();
-                TabletLabel.Text = count.ToString();
+                GetStockCounts();
             }
         }
 

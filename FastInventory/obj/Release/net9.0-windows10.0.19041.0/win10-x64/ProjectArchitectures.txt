@@ -1,0 +1,1 @@
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\FastInventory.csproj;x64

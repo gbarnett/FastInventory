@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.fastinventory</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=garpbarn</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -64,170 +64,170 @@
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\hpelitebookg6laptop.scale-100.png">
+      <PackagePath>hpelitebookg6laptop.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\lenovolaptop.scale-100.png">
       <PackagePath>lenovolaptop.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\mc3000_scanner.scale-100.png">
       <PackagePath>mc3000_scanner.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zukeyimage.scale-100.png">
-      <PackagePath>zukeyimage.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\hpelitebookg6laptop.scale-100.png">
-      <PackagePath>hpelitebookg6laptop.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zq630_printer.scale-100.png">
-      <PackagePath>zq630_printer.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zd620printer.scale-100.png">
-      <PackagePath>zd620printer.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\thinclient.scale-100.png">
-      <PackagePath>thinclient.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\motoradios.scale-100.png">
+      <PackagePath>motoradios.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\tablet.scale-100.png">
       <PackagePath>tablet.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\motoradios.scale-100.png">
-      <PackagePath>motoradios.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\thinclient.scale-100.png">
+      <PackagePath>thinclient.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zd620printer.scale-100.png">
+      <PackagePath>zd620printer.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zq630_printer.scale-100.png">
+      <PackagePath>zq630_printer.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\zukeyimage.scale-100.png">
+      <PackagePath>zukeyimage.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\.nuget\packages\microsoft.web.webview2\1.0.2792.45\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
