@@ -267,11 +267,15 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\mc3000_scanner.jpg
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zq630_printer.jpg
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\hpelitebookg6laptop.jpg
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\thinclient.jpg
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zd620printer.jpg
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zukeyimage.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\mc3000_scanner.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\hpelitebookg6laptop.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zd620printer.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zq630_printer.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lenovolaptop.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\thinclient.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\motoradios.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\tablet.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
@@ -303,49 +307,3 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.pdb
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.genruntimeconfig.cache
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\FastInventory.dll
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zq630_printer.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\mc3000_scanner.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zd620printer.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\zukeyimage.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\hpelitebookg6laptop.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lenovolaptop.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\thinclient.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.stamp
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ibtool\_ProcessedInterfaceDefinitionsPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\copySceneKitAssets\_ProcessedSceneKitAssetsPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\collada\_ProcessedColladaAssetsPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\atlas\_ProcessedTextureAtlasesPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\coremlc\_PartialAppManifest.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.csproj.AssemblyReference.cache
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.GeneratedMSBuildEditorConfig.editorconfig
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.AssemblyInfoInputs.cache
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.AssemblyInfo.cs
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.csproj.CoreCompileInputs.cache
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.sourcelink.json
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.dll
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\refint\FastInventory.dll
-D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.pdb

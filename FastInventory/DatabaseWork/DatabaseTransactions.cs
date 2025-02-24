@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-using FastInventory.Classes;
+﻿using FastInventory.Classes;
 using SQLite;
 
 namespace FastInventory.DatabaseWork
@@ -21,6 +15,11 @@ namespace FastInventory.DatabaseWork
                 try
                 {
                     conn.CreateTable<AssetItem>();
+                    conn.CreateTable<Zukey>();
+                    if (conn.Table<Zukey>().Count() == 0)
+                    {
+                        conn.Insert(new Zukey() { Count = 0 });
+                    }
                     conn.Close();
                 }
                 catch (Exception ex)
@@ -39,6 +38,15 @@ namespace FastInventory.DatabaseWork
             }
         }
 
+        public async static Task RemoveAsset(AssetItem asset)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(DBPath))
+            {
+                conn.Delete(asset);
+                conn.Close();
+            }
+        }
+
         public async static Task<AssetItem> CheckAssetExists(string serialNumber)
         {
             using (var conn = new SQLiteConnection(DBPath))
@@ -48,5 +56,35 @@ namespace FastInventory.DatabaseWork
                 return await Task.FromResult(asset);
             }
         }
+
+        public async static Task AddSecurityKey()
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var zukey = conn.Table<Zukey>().Where(s => s.ID == 1).FirstOrDefault();
+                zukey.Count += 1;
+                conn.Update(zukey);
+                conn.Close();
+            }
+        }
+
+        public async static Task RemoveSecurityKey()
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var zukey = conn.Table<Zukey>().Where(s => s.ID == 1).FirstOrDefault();
+                if (zukey.Count > 0)
+                {
+                    zukey.Count -= 1;
+                    conn.Update(zukey);
+                }
+                else
+                {
+                    return;
+                }
+
+            }
+        }
+
     }
 }

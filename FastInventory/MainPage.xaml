@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FastInventory.MainPage">
     <ScrollView Orientation="Vertical">
-    <Grid ColumnDefinitions="1*,1*,1*,1*,1*,1*,1*,1*,1*"
-          RowDefinitions="Auto,1*,Auto,*,*,*">
+        <Grid 
+            ColumnDefinitions="Auto,1*,1*,1*,1*,1*,Auto"
+            RowDefinitions="1*,1*"
+            RowSpacing="20"
+            ColumnSpacing="40">
 
-        <Border Grid.Column="1" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
+            <Border Grid.Column="1" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
                     <Label
                         Text="MC3300 Scanner"
                         HorizontalOptions="Center"
@@ -18,218 +21,317 @@
                         Clicked="MC3300_Add_Button_Clicked"
                         ImageSource="mc3000_scanner.png"
                         BackgroundColor="Transparent"
-                        VerticalOptions="FillAndExpand"
-                        MinimumHeightRequest="200"/>
+                        VerticalOptions="FillAndExpand"/>
                     <Label
                         Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="MC3300Label"/>
+                    <Button
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_MC3300_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_MC3300_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="ZQ630 Printer"
                         FontSize="16"
-                        HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="1"
-                Grid.Column="1"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_MC3300_Button"/>
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        x:Name="ZQ630_Add_Button"
+                        Clicked="ZQ630_Add_Button_Clicked"
+                        ImageSource="zq630_printer.png"
+                        BackgroundColor="Transparent"
+                        VerticalOptions="FillAndExpand"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="ZQ630Label"/>
+                    <Button
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_ZQ630_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_ZQ630_Button_Clicked"/>
+                </StackLayout>
+            </Border>
 
             <Border Grid.Column="3" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
                 <StackLayout>
                     <Label
-                    Text="ZQ630 Printer"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
+                        Text="HP G6"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
                     <Button
-                    x:Name="ZQ630_Add_Button"
-                    Clicked="ZQ630_Add_Button_Clicked"
-                    ImageSource="zq630_printer.png"
-                    BackgroundColor="Transparent"
-                    VerticalOptions="FillAndExpand"
-                    MinimumHeightRequest="200"/>
+                        Text="Add"
+                        ImageSource="hpelitebookg6laptop.png"
+                        BackgroundColor="Transparent"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_HPG6_Button"
+                        Clicked="Add_HPG6_Button_Clicked"/>
                     <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="HPG6Label"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_G6_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_G6_Button_Clicked"/>
                 </StackLayout>
             </Border>
-            <Button
-                Grid.Row="1"
-                Grid.Column="3"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_ZQ630_Button"/>
 
-            <Border Grid.Column="5" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
-                    <Label
-                    Text="HP G6"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
-                    <Button
-                    Text="Add"
-                    ImageSource="hpelitebookg6laptop.png"
-                    BackgroundColor="Transparent"
-                    VerticalOptions="FillAndExpand"
-                    MinimumHeightRequest="200"/>
-                <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="1"
-                Grid.Column="5"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_G6_Button"/>
-
-            <Border Grid.Column="7" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
-                    <Label
-                    Text="HP G7"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
-                    <Button
-                    Text="Add"
-                    ImageSource="hpelitebookg6laptop.png"
-                    BackgroundColor="Transparent"
-                    VerticalOptions="FillAndExpand"
-                    MinimumHeightRequest="200"/>
-                <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="1"
-                Grid.Column="7"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_G7_Button"/>
-
-            <Border Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
-                    <Label
-                    Text="Lenovo Laptop"
-                    HorizontalOptions="Center"
-                    FontSize="16"
-                    FontAttributes="Bold"/>
-                    <Button
-                    Text="Add"
-                    ImageSource="lenovolaptop.png"
-                    BackgroundColor="Transparent"
-                    MinimumHeightRequest="200"
-                    VerticalOptions="Start"/>
-                <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="3"
-                Grid.Column="1"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_Lenovo_Button"/>
-
-            <Border Grid.Column="3" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
-                    <Label
-                    Text="Thin Client"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
-                    <Button
-                    Text="Add"
-                    MinimumHeightRequest="200"
-                    ImageSource="thinclient.png"
-                    VerticalOptions="End"
-                    BackgroundColor="Transparent"/>
-                <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="3"
-                Grid.Column="3"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_TC_Button"/>
-
-            <Border Grid.Column="5" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
-            <StackLayout>
-                    <Label
-                    Text="ZD 620"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
-                    <Button
-                    Text="Add"
-                    ImageSource="zd620printer.png"
-                    MinimumHeightRequest="200"
-                    BackgroundColor="Transparent"
-                    VerticalOptions="End"/>
-                <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
-            </StackLayout>
-        </Border>
-            <Button
-                Grid.Row="3"
-                Grid.Column="5"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_ZD620_Button"/>
-
-            <Border Grid.Column="7" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+            <Border Grid.Column="4" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
                 <StackLayout>
                     <Label
-                    Text="Security Key"
-                    FontSize="16"
-                    Margin="2"
-                    HorizontalOptions="Center"
-                    FontAttributes="Bold"/>
+                        Text="HP G7"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
                     <Button
-                    Text="Add"
-                    MinimumHeightRequest="200"
-                    BackgroundColor="Transparent"
-                    ImageSource="zukeyimage.png"
-                    VerticalOptions="End"/>
+                        Text="Add"
+                        ImageSource="hpelitebookg6laptop.png"
+                        BackgroundColor="Transparent"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_HPG7_Button"
+                        Clicked="Add_HPG7_Button_Clicked"/>
                     <Label
-                    Text="Count"
-                    FontSize="16"
-                    HorizontalOptions="Center"/>
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="HPG7Label"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_G7_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_G7_Button_Clicked"/>
                 </StackLayout>
             </Border>
-            <Button
-                Grid.Row="3"
-                Grid.Column="7"
-                VerticalOptions="Start"
-                Margin="10"
-                Text="Remove"
-                x:Name="Remove_Zukey_Button"/>
 
+            <Border Grid.Column="5" Grid.Row="0" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="Lenovo Laptop"
+                        HorizontalOptions="Center"
+                        Margin="2"
+                        FontSize="16"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        ImageSource="lenovolaptop.png"
+                        BackgroundColor="Transparent"
+                        MinimumHeightRequest="200"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_Lenovo_Button"
+                        Clicked="Add_Lenovo_Button_Clicked"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="LenovoLabel"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_Lenovo_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_Lenovo_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+
+            <Border Grid.Column="1" Grid.Row="2" Grid.RowSpan="0" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="Thin Client"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        ImageSource="thinclient.png"
+                        VerticalOptions="FillAndExpand"
+                        BackgroundColor="Transparent"
+                        x:Name="Add_TC_Button"
+                        Clicked="Add_TC_Button_Clicked"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="TCLabel"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_TC_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_TC_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+
+            <Border Grid.Column="2" Grid.Row="2" Grid.RowSpan="0" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="ZD 620"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        ImageSource="zd620printer.png"
+                        BackgroundColor="Transparent"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_ZD620_Button"
+                        Clicked="Add_ZD620_Button_Clicked"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="ZD620Label"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_ZD620_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_ZD620_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+            
+            <Border Grid.Column="3" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="Radio"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        BackgroundColor="Transparent"
+                        ImageSource="motoradios.png"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_Radio_Button"
+                        Clicked="Add_Radio_Button_Clicked"
+                        MinimumHeightRequest="300"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="RadioLabel"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        x:Name="Remove_Radio_Button"
+                        FontAttributes="Bold"
+                        Clicked="Remove_Radio_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+
+            <Border Grid.Column="4" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="Pinnacle Tablet"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        BackgroundColor="Transparent"
+                        ImageSource="tablet.png"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_Tablet_Button"
+                        Clicked="Add_Tablet_Button_Clicked"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="TabletLabel"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_Tablet_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_Tablet_Button_Clicked"/>
+                </StackLayout>
+            </Border>
+
+            <Border Grid.Column="5" Grid.Row="2" Grid.RowSpan="1" Stroke="Black" StrokeThickness="2" Padding="10">
+                <StackLayout>
+                    <Label
+                        Text="Security Key"
+                        FontSize="16"
+                        Margin="2"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                        Text="Add"
+                        BackgroundColor="Transparent"
+                        ImageSource="zukeyimage.png"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="Add_SecurityKey_Button"
+                        Clicked="Add_SecurityKey_Button_Clicked"
+                        MaximumHeightRequest="300"/>
+                    <Label
+                        Text="Count"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        x:Name="ZukeyLabel"/>
+                    <Button
+                        VerticalOptions="Start"
+                        Margin="10"
+                        Text="Remove"
+                        x:Name="Remove_Zukey_Button"
+                        CornerRadius="20"
+                        WidthRequest="150"
+                        FontAttributes="Bold"
+                        Clicked="Remove_Zukey_Button_Clicked"/>
+                </StackLayout>
+            </Border>
         </Grid>
     </ScrollView>
 
