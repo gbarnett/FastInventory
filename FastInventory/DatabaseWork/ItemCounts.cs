@@ -7,6 +7,16 @@ namespace FastInventory.DatabaseWork
     {
         public static string DBPath = Path.Combine(FileSystem.AppDataDirectory, "Inventory.db");
 
+
+        public async static Task<int> GetProductCount(string model)
+        {
+            var count = 0;
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                count = conn.Table<AssetItem>().Count(s => s.Model == model);
+                return count;
+            }
+        }
         public async static Task<int> GetMC3300StockCount()
         {
             using (var conn = new SQLiteConnection(DBPath))

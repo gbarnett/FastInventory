@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FastInventory.NewPage"
+             Title="NewPage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                Text="Add New Item"
+                HorizontalOptions="Center"
+                MaximumWidthRequest="150"
+                x:Name="Add_New_Button"
+                Clicked="Add_New_Button_Clicked"/>
+            <CollectionView x:Name="ItemLists">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                 Span="5"
+                                 VerticalItemSpacing="50"
+                                 HorizontalItemSpacing="50"/>
+            </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Stroke="Black" StrokeThickness="2" Padding="10">
+                            <VerticalStackLayout Spacing="10">
+                                <Label Text="{Binding Model}" FontSize="16" HorizontalOptions="Center" FontAttributes="Bold" x:Name="ModelName"/>
+                                <Button ImageSource="{Binding ImageSource}" HorizontalOptions="Center" MinimumHeightRequest="250" MaximumHeightRequest="250" VerticalOptions="End" BackgroundColor="Transparent" x:Name="Product_Add_Button" Clicked="Product_Add_Button_Clicked" CommandParameter="{Binding}"/>
+                                <Label Text="{Binding Count}" FontSize="24" HorizontalOptions="Center"/>
+                                <Button Text="Remove" MaximumWidthRequest="150" FontAttributes="Bold"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+            </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

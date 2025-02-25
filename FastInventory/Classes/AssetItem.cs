@@ -15,5 +15,6 @@ namespace FastInventory.Classes
 
         [Column("InStock")]
         public int InStock { get; set; }
+
     }
 }

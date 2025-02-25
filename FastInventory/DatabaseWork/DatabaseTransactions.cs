@@ -1,5 +1,6 @@
 ﻿using FastInventory.Classes;
 using SQLite;
+using System.ComponentModel;
 
 namespace FastInventory.DatabaseWork
 {
@@ -10,17 +11,17 @@ namespace FastInventory.DatabaseWork
         public static string DBPath = Path.Combine(FileSystem.AppDataDirectory, "Inventory.db");
         public async static Task CheckDatabase()
         {
-            using (SQLiteConnection conn = new SQLiteConnection(DBPath))
+            using (var conn = new SQLiteConnection(DBPath))
             {
                 try
                 {
                     conn.CreateTable<AssetItem>();
                     conn.CreateTable<Zukey>();
+                    conn.CreateTable<Product>();
                     if (conn.Table<Zukey>().Count() == 0)
                     {
                         conn.Insert(new Zukey() { Count = 0 });
                     }
-                    conn.Close();
                 }
                 catch (Exception ex)
                 {
@@ -31,19 +32,17 @@ namespace FastInventory.DatabaseWork
 
         public async static Task AddAsset(AssetItem asset)
         {
-            using (SQLiteConnection conn = new SQLiteConnection(DBPath))
+            using (var conn = new SQLiteConnection(DBPath))
             {
                 conn.Insert(asset);
-                conn.Close();
             }
         }
 
         public async static Task RemoveAsset(AssetItem asset)
         {
-            using (SQLiteConnection conn = new SQLiteConnection(DBPath))
+            using (var conn = new SQLiteConnection(DBPath))
             {
                 conn.Delete(asset);
-                conn.Close();
             }
         }
 
@@ -52,7 +51,6 @@ namespace FastInventory.DatabaseWork
             using (var conn = new SQLiteConnection(DBPath))
             {
                 var asset = conn.Table<AssetItem>().Where(s => s.SerialNumber == serialNumber && s.InStock == 1).FirstOrDefault();
-                conn.Close();
                 return await Task.FromResult(asset);
             }
         }
@@ -64,7 +62,6 @@ namespace FastInventory.DatabaseWork
                 var zukey = conn.Table<Zukey>().Where(s => s.ID == 1).FirstOrDefault();
                 zukey.Count += 1;
                 conn.Update(zukey);
-                conn.Close();
             }
         }
 
@@ -82,9 +79,31 @@ namespace FastInventory.DatabaseWork
                 {
                     return;
                 }
-
             }
         }
 
+        public static async Task<List<Product>> GetProductsAsync()
+        {
+            var conn = new SQLiteAsyncConnection(DBPath);
+            var products = await conn.Table<Product>().ToListAsync();
+            await conn.CloseAsync();
+            return products;
+        }
+
+        public static async Task DropTable()
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                conn.DropTable<Product>();
+            }
+        }
+
+        public static async Task AddProduct(Product product)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                conn.Insert(product);
+            }
+        }
     }
 }

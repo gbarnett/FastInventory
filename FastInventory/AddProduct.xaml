@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FastInventory.AddProduct"
+             Title="AddProduct">
+    <Grid RowSpacing="50">
+        <!-- Define the grid structure -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label 
+            Text="Add New Item"
+            FontSize="30"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"
+            Padding="100"
+            Grid.Row="0"
+            Grid.Column="1"/>
+
+        <Entry 
+            Placeholder="Item Model"
+            x:Name="ModelName"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            MinimumWidthRequest="300"
+            Grid.Row="1"
+            Grid.Column="1"/>
+        <HorizontalStackLayout Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" Spacing="15" Grid.ColumnSpan="1">
+            <Entry
+            Placeholder="Image Path"
+            x:Name="FileName"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            MinimumWidthRequest="300"/>
+            <Button
+                Text="Browse"
+                MaximumWidthRequest="200"
+                x:Name="BrowseButon"
+                Clicked="BrowseButon_Clicked"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Grid.Row="3" Grid.Column="1" HorizontalOptions="Center">
+            <Label
+            Text="Serialized?"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="20"/>
+
+            <CheckBox
+            x:Name="Serialized"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout
+            Spacing="150"
+            Grid.Row="4"
+            Grid.Column="1"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <Button
+                x:Name="Submit"
+                Text="Submit"
+                MinimumWidthRequest="200"
+                HorizontalOptions="Center"
+                Clicked="Submit_Clicked"/>
+            <Button
+                x:Name="Cancel"
+                Text="Cancel"
+                MinimumWidthRequest="200"
+                Clicked="Cancel_Clicked"/>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

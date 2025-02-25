@@ -11,5 +11,11 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <FlyoutItem Title="Home2">
+        <ShellContent
+            Title="Home2"
+            ContentTemplate="{DataTemplate local:NewPage}"
+            Route="NewPage"/>
+    </FlyoutItem>
 
 </Shell>
