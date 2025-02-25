@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\",
+  "WorkspaceRootPath": "D:\\Coding Projects\\FastInventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\databasework\\itemcounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\databasework\\itemcounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\databasework\\itemcounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\newpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\newpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\newpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\databasework\\databasetransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\databasework\\databasetransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\databasework\\databasetransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\newpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\newpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\newpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|c:\\users\\garpbarn\\documents\\githubprojects\\fastinventory\\fastinventory\\classes\\assetitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|d:\\coding projects\\fastinventory\\fastinventory\\classes\\assetitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B548712-D879-45A3-8A59-5F63C4BA4C49}|FastInventory\\FastInventory.csproj|solutionrelative:fastinventory\\classes\\assetitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -64,9 +64,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ItemCounts.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\DatabaseWork\\ItemCounts.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\DatabaseWork\\ItemCounts.cs",
               "RelativeDocumentMoniker": "FastInventory\\DatabaseWork\\ItemCounts.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\DatabaseWork\\ItemCounts.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\DatabaseWork\\ItemCounts.cs",
               "RelativeToolTip": "FastInventory\\DatabaseWork\\ItemCounts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AddProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\AddProduct.xaml.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\AddProduct.xaml.cs",
               "RelativeDocumentMoniker": "FastInventory\\AddProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\AddProduct.xaml.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\AddProduct.xaml.cs",
               "RelativeToolTip": "FastInventory\\AddProduct.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AddProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\AddProduct.xaml",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\AddProduct.xaml",
               "RelativeDocumentMoniker": "FastInventory\\AddProduct.xaml",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\AddProduct.xaml",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\AddProduct.xaml",
               "RelativeToolTip": "FastInventory\\AddProduct.xaml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -101,9 +101,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\Classes\\Product.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\Classes\\Product.cs",
               "RelativeDocumentMoniker": "FastInventory\\Classes\\Product.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\Classes\\Product.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\Classes\\Product.cs",
               "RelativeToolTip": "FastInventory\\Classes\\Product.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,9 +113,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "AssetItem.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\Classes\\AssetItem.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\Classes\\AssetItem.cs",
               "RelativeDocumentMoniker": "FastInventory\\Classes\\AssetItem.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\Classes\\AssetItem.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\Classes\\AssetItem.cs",
               "RelativeToolTip": "FastInventory\\Classes\\AssetItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,35 +125,33 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DatabaseTransactions.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
               "RelativeDocumentMoniker": "FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
               "RelativeToolTip": "FastInventory\\DatabaseWork\\DatabaseTransactions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:38:53.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T15:38:53.308Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NewPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\NewPage.xaml.cs",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\NewPage.xaml.cs",
               "RelativeDocumentMoniker": "FastInventory\\NewPage.xaml.cs",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\NewPage.xaml.cs",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\NewPage.xaml.cs",
               "RelativeToolTip": "FastInventory\\NewPage.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T15:38:10.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T15:38:10.955Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NewPage.xaml",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\NewPage.xaml",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\NewPage.xaml",
               "RelativeDocumentMoniker": "FastInventory\\NewPage.xaml",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\NewPage.xaml",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\NewPage.xaml",
               "RelativeToolTip": "FastInventory\\NewPage.xaml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAsAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -163,9 +161,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\MainPage.xaml",
+              "DocumentMoniker": "D:\\Coding Projects\\FastInventory\\FastInventory\\MainPage.xaml",
               "RelativeDocumentMoniker": "FastInventory\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\MainPage.xaml",
+              "ToolTip": "D:\\Coding Projects\\FastInventory\\FastInventory\\MainPage.xaml",
               "RelativeToolTip": "FastInventory\\MainPage.xaml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
