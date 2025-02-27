@@ -24,8 +24,8 @@
                             <VerticalStackLayout Spacing="10">
                                 <Label Text="{Binding Model}" FontSize="16" HorizontalOptions="Center" FontAttributes="Bold" x:Name="ModelName"/>
                                 <Button ImageSource="{Binding ImageSource}" HorizontalOptions="Center" MinimumHeightRequest="250" MaximumHeightRequest="250" VerticalOptions="End" BackgroundColor="Transparent" x:Name="Product_Add_Button" Clicked="Product_Add_Button_Clicked" CommandParameter="{Binding}"/>
-                                <Label Text="{Binding Count}" FontSize="24" HorizontalOptions="Center"/>
-                                <Button Text="Remove" MaximumWidthRequest="150" FontAttributes="Bold"/>
+                                <Label Text="{Binding Count}" FontSize="24" HorizontalOptions="Center" x:Name="ProductCountLabel"/>
+                                <Button Text="Remove" MaximumWidthRequest="150" FontAttributes="Bold" x:Name="Product_Remove_Button" Clicked="Product_Remove_Button_Clicked" CommandParameter="{Binding}"/>
                             </VerticalStackLayout>
                         </Border>
                     </DataTemplate>

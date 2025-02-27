@@ -1,9 +1,11 @@
-﻿using SQLite;
+﻿using FastInventory.DatabaseWork;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace FastInventory.Classes
 {
@@ -26,7 +28,6 @@ namespace FastInventory.Classes
 
         public Product()
         {
-
         }
     }
 }

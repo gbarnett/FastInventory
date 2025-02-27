@@ -46,6 +46,31 @@ namespace FastInventory.DatabaseWork
             }
         }
 
+
+        public async static Task RemoveSerializedAsset(string serialNumber)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var assetToRemove = conn.Table<AssetItem>().Where(s => s.SerialNumber == serialNumber).FirstOrDefault();
+                if (assetToRemove != null)
+                {
+                    conn.Delete(assetToRemove);
+                }
+            }
+        }
+
+        public async static Task RemoveNonSerializedAsset(string model)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var assetsToRemove = conn.Table<AssetItem>().Where(s => s.Model == model && s.SerialNumber == null).ToList();
+                if(assetsToRemove.Count > 0)
+                {
+                    conn.Delete(assetsToRemove[0]);
+                }
+            }
+        }
+
         public async static Task<AssetItem> CheckAssetExists(string serialNumber)
         {
             using (var conn = new SQLiteConnection(DBPath))
@@ -103,6 +128,17 @@ namespace FastInventory.DatabaseWork
             using (var conn = new SQLiteConnection(DBPath))
             {
                 conn.Insert(product);
+            }
+        }
+        public async static Task RemoveFirstAssetByName(string model)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var assetToRemove = conn.Table<AssetItem>().Where(s => s.Model == model).FirstOrDefault();
+                if (assetToRemove != null)
+                {
+                    conn.Delete(assetToRemove);
+                }
             }
         }
     }

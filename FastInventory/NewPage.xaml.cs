@@ -1,25 +1,26 @@
 using FastInventory.Classes;
 using FastInventory.DatabaseWork;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace FastInventory;
 
 public partial class NewPage : ContentPage
 {
-    public BindingList<Product> AssetList;
+    public ObservableCollection<Product> AssetList { get; set; } = new();
+
     public NewPage()
 	{
 		InitializeComponent();
         LoadAssets();
-
     }
 
     public async Task LoadAssets()
     {
         List<Product> productList = await DatabaseTransactions.GetProductsAsync();
-        BindingList<Product> items = new BindingList<Product>(productList);
-        AssetList = items;
+        AssetList = new ObservableCollection<Product>(productList);
         await GetCounts();
         ItemLists.ItemsSource = AssetList;
     }
@@ -57,6 +58,7 @@ public partial class NewPage : ContentPage
                 asset.InStock = 1;
                 DatabaseTransactions.AddAsset(asset);
                 await LoadAssets();
+
             }
         }
         else
@@ -65,7 +67,32 @@ public partial class NewPage : ContentPage
             asset.Model = product.Model;
             asset.InStock = 1;
             DatabaseTransactions.AddAsset(asset);
+            await LoadAssets();
 
+        }
+    }
+
+    private async void Product_Remove_Button_Clicked(object sender, EventArgs e)
+    {
+        var product = (sender as Button).CommandParameter as Product;
+        if (product.IsAsset == 1)
+        {
+            string serialNumber = await DisplayPromptAsync("Remove Item", "Enter Serial Number", "OK", "Cancel", null, 100, Keyboard.Default, "");
+            if (!String.IsNullOrEmpty(serialNumber))
+            {
+                AssetItem asset = new AssetItem();
+                asset.SerialNumber = serialNumber;
+                asset.Model = product.Model;
+                asset.InStock = 1;
+                DatabaseTransactions.RemoveSerializedAsset(asset.SerialNumber);
+                await LoadAssets();
+
+            }
+        }
+        else
+        {
+            DatabaseTransactions.RemoveNonSerializedAsset(product.Model);
+            await LoadAssets();
         }
     }
 }

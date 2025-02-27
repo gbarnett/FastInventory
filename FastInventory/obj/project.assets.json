@@ -5647,24 +5647,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gary\\.nuget\\packages\\": {},
+    "C:\\Users\\garpbarn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj",
+      "projectUniqueName": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj",
       "projectName": "FastInventory",
-      "projectPath": "D:\\Coding Projects\\FastInventory\\FastInventory\\FastInventory.csproj",
-      "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding Projects\\FastInventory\\FastInventory\\obj\\",
+      "projectPath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj",
+      "packagesPath": "C:\\Users\\garpbarn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\garpbarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
