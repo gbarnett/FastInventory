@@ -376,3 +376,4 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\minusbutton.scale-100.png

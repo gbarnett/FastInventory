@@ -57,6 +57,7 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\hpelitebookg6laptop.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\lenovolaptop.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\mc3000_scanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\minusbutton.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\motoradios.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\tablet.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\publish\thinclient.scale-100.png

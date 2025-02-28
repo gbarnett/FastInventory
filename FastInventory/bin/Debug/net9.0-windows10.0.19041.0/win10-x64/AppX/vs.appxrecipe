@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.fastinventory</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=garpbarn</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,36 +18,36 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>6B897AD8EAB755659205A261E278CC14A10326ECC47DDE86D35865D1D8B93353</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>com.companyname.fastinventory_0.0.1.0_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>com.companyname.fastinventory_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>633EE32887D23BD8333562B6C608A122039ADB81DE313A2EF23005AB5D71586D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.fastinventory_0.0.4.0_x64__an8pavdtbccbj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.fastinventory_an8pavdtbccbj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.fastinventory</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
-    <RegisteredVersion>0.0.1.0</RegisteredVersion>
+    <RegisteredPackagePublisher>CN=garpbarn</RegisteredPackagePublisher>
+    <RegisteredVersion>0.0.4.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-24T20:15:43.789</Modified>
+      <Modified>2025-02-28T16:15:52.485</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-02-24T20:15:43.586</Modified>
+      <Modified>2025-02-28T16:12:43.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\FastInventory.runtimeconfig.json">
       <PackagePath>FastInventory.runtimeconfig.json</PackagePath>
-      <Modified>2025-02-24T20:05:14.878</Modified>
+      <Modified>2025-02-28T16:12:42.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\FastInventory.dll">
       <PackagePath>FastInventory.dll</PackagePath>
-      <Modified>2025-02-24T20:15:42.144</Modified>
+      <Modified>2025-02-28T16:15:51.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FastInventory.exe</PackagePath>
-      <Modified>2025-02-24T20:15:42.183</Modified>
+      <Modified>2025-02-28T16:15:51.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:01.091</Modified>
+      <Modified>2025-02-27T17:46:39.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:01.109</Modified>
+      <Modified>2025-02-27T17:46:39.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:01.134</Modified>
+      <Modified>2025-02-27T17:46:39.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:01.168</Modified>
+      <Modified>2025-02-27T17:46:39.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:01.299</Modified>
+      <Modified>2025-02-27T17:46:40.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs">
       <PackagePath>FluentUI.cs</PackagePath>
@@ -87,223 +87,227 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-02-24T20:05:02.235</Modified>
+      <Modified>2025-02-28T14:10:13.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.213</Modified>
+      <Modified>2025-02-28T14:10:13.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.212</Modified>
+      <Modified>2025-02-28T14:10:13.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.212</Modified>
+      <Modified>2025-02-28T14:10:13.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.211</Modified>
+      <Modified>2025-02-28T14:10:13.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.211</Modified>
+      <Modified>2025-02-28T14:10:13.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.226</Modified>
+      <Modified>2025-02-28T14:10:13.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.226</Modified>
+      <Modified>2025-02-28T14:10:13.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.224</Modified>
+      <Modified>2025-02-28T14:10:13.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.225</Modified>
+      <Modified>2025-02-28T14:10:13.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.224</Modified>
+      <Modified>2025-02-28T14:10:13.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.229</Modified>
+      <Modified>2025-02-28T14:10:13.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.228</Modified>
+      <Modified>2025-02-28T14:10:13.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.227</Modified>
+      <Modified>2025-02-28T14:10:13.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.228</Modified>
+      <Modified>2025-02-28T14:10:13.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.227</Modified>
+      <Modified>2025-02-28T14:10:13.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.235</Modified>
+      <Modified>2025-02-28T14:10:13.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.234</Modified>
+      <Modified>2025-02-28T14:10:13.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.234</Modified>
+      <Modified>2025-02-28T14:10:13.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.233</Modified>
+      <Modified>2025-02-28T14:10:13.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.233</Modified>
+      <Modified>2025-02-28T14:10:13.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.231</Modified>
+      <Modified>2025-02-28T14:10:13.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.231</Modified>
+      <Modified>2025-02-28T14:10:13.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.229</Modified>
+      <Modified>2025-02-28T14:10:13.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.230</Modified>
+      <Modified>2025-02-28T14:10:13.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.230</Modified>
+      <Modified>2025-02-28T14:10:13.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.218</Modified>
+      <Modified>2025-02-28T14:10:13.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.218</Modified>
+      <Modified>2025-02-28T14:10:13.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.217</Modified>
+      <Modified>2025-02-28T14:10:13.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.217</Modified>
+      <Modified>2025-02-28T14:10:13.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.215</Modified>
+      <Modified>2025-02-28T14:10:13.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.221</Modified>
+      <Modified>2025-02-28T14:10:13.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.220</Modified>
+      <Modified>2025-02-28T14:10:13.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.220</Modified>
+      <Modified>2025-02-28T14:10:13.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.219</Modified>
+      <Modified>2025-02-28T14:10:13.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.219</Modified>
+      <Modified>2025-02-28T14:10:13.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.223</Modified>
+      <Modified>2025-02-28T14:10:13.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.223</Modified>
+      <Modified>2025-02-28T14:10:13.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.222</Modified>
+      <Modified>2025-02-28T14:10:13.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.222</Modified>
+      <Modified>2025-02-28T14:10:13.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.221</Modified>
+      <Modified>2025-02-28T14:10:13.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.215</Modified>
+      <Modified>2025-02-28T14:10:13.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.215</Modified>
+      <Modified>2025-02-28T14:10:13.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.214</Modified>
+      <Modified>2025-02-28T14:10:13.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.214</Modified>
+      <Modified>2025-02-28T14:10:13.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.213</Modified>
+      <Modified>2025-02-28T14:10:13.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hpelitebookg6laptop.scale-100.png">
       <PackagePath>hpelitebookg6laptop.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.207</Modified>
+      <Modified>2025-02-28T14:10:13.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\lenovolaptop.scale-100.png">
       <PackagePath>lenovolaptop.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.206</Modified>
+      <Modified>2025-02-28T14:10:13.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\mc3000_scanner.scale-100.png">
       <PackagePath>mc3000_scanner.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.205</Modified>
+      <Modified>2025-02-28T14:10:13.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\minusbutton.scale-100.png">
+      <PackagePath>minusbutton.scale-100.png</PackagePath>
+      <Modified>2025-02-28T14:10:13.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\motoradios.scale-100.png">
       <PackagePath>motoradios.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.209</Modified>
+      <Modified>2025-02-28T14:10:13.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\tablet.scale-100.png">
       <PackagePath>tablet.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.210</Modified>
+      <Modified>2025-02-28T14:10:13.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\thinclient.scale-100.png">
       <PackagePath>thinclient.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.208</Modified>
+      <Modified>2025-02-28T14:10:13.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zd620printer.scale-100.png">
       <PackagePath>zd620printer.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.207</Modified>
+      <Modified>2025-02-28T14:10:13.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zq630_printer.scale-100.png">
       <PackagePath>zq630_printer.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.208</Modified>
+      <Modified>2025-02-28T14:10:13.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zukeyimage.scale-100.png">
       <PackagePath>zukeyimage.scale-100.png</PackagePath>
-      <Modified>2025-02-24T20:05:02.206</Modified>
+      <Modified>2025-02-28T14:10:13.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\.nuget\packages\microsoft.web.webview2\1.0.2792.45\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
@@ -627,7 +631,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\FastInventory.deps.json">
       <PackagePath>FastInventory.deps.json</PackagePath>
-      <Modified>2025-02-24T20:15:43.252</Modified>
+      <Modified>2025-02-28T16:12:42.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\garpbarn\.nuget\packages\microsoft.maui.controls.core\9.0.14\lib\net9.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>

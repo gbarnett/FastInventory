@@ -16,12 +16,7 @@ namespace FastInventory.DatabaseWork
                 try
                 {
                     conn.CreateTable<AssetItem>();
-                    conn.CreateTable<Zukey>();
                     conn.CreateTable<Product>();
-                    if (conn.Table<Zukey>().Count() == 0)
-                    {
-                        conn.Insert(new Zukey() { Count = 0 });
-                    }
                 }
                 catch (Exception ex)
                 {
@@ -80,47 +75,12 @@ namespace FastInventory.DatabaseWork
             }
         }
 
-        public async static Task AddSecurityKey()
-        {
-            using (var conn = new SQLiteConnection(DBPath))
-            {
-                var zukey = conn.Table<Zukey>().Where(s => s.ID == 1).FirstOrDefault();
-                zukey.Count += 1;
-                conn.Update(zukey);
-            }
-        }
-
-        public async static Task RemoveSecurityKey()
-        {
-            using (var conn = new SQLiteConnection(DBPath))
-            {
-                var zukey = conn.Table<Zukey>().Where(s => s.ID == 1).FirstOrDefault();
-                if (zukey.Count > 0)
-                {
-                    zukey.Count -= 1;
-                    conn.Update(zukey);
-                }
-                else
-                {
-                    return;
-                }
-            }
-        }
-
         public static async Task<List<Product>> GetProductsAsync()
         {
             var conn = new SQLiteAsyncConnection(DBPath);
             var products = await conn.Table<Product>().ToListAsync();
             await conn.CloseAsync();
             return products;
-        }
-
-        public static async Task DropTable()
-        {
-            using (var conn = new SQLiteConnection(DBPath))
-            {
-                conn.DropTable<Product>();
-            }
         }
 
         public static async Task AddProduct(Product product)
@@ -140,6 +100,29 @@ namespace FastInventory.DatabaseWork
                     conn.Delete(assetToRemove);
                 }
             }
+        }
+
+        public async static Task RemoveProductFromDatabase(Product product)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var assetsToRemove = conn.Table<AssetItem>().Where(s => s.Model == product.Model).ToList();
+                foreach (var asset in assetsToRemove)
+                {
+                    conn.Delete(asset);
+                }
+                conn.Delete(product);
+            }
+        }
+
+        public async static Task<List<AssetItem>> GetSpecificProductList(Product product)
+        {
+            List<AssetItem> items = new List<AssetItem>();
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                items = conn.Table<AssetItem>().Where(p => p.Model == product.Model).ToList();
+            }
+                return items;
         }
     }
 }

@@ -62,6 +62,7 @@
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\hpelitebookg6laptop.scale-100.png" "hpelitebookg6laptop.scale-100.png"
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\lenovolaptop.scale-100.png" "lenovolaptop.scale-100.png"
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\mc3000_scanner.scale-100.png" "mc3000_scanner.scale-100.png"
+"C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\minusbutton.scale-100.png" "minusbutton.scale-100.png"
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\motoradios.scale-100.png" "motoradios.scale-100.png"
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\tablet.scale-100.png" "tablet.scale-100.png"
 "C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win-x64\resizetizer\r\thinclient.scale-100.png" "thinclient.scale-100.png"
