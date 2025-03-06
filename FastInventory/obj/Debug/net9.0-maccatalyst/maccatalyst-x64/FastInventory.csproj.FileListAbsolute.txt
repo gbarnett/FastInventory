@@ -307,3 +307,4 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.pdb
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\FastInventory.genruntimeconfig.cache
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\FastInventory.dll
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\minusbutton.png

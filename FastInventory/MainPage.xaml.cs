@@ -89,7 +89,7 @@ namespace FastInventory
                     asset.Model = product.Model;
                     asset.InStock = 1;
                     DatabaseTransactions.RemoveSerializedAsset(asset.SerialNumber);
-                    //await LoadAssets();
+                    await LoadAssets();
                 }
             }
             else
