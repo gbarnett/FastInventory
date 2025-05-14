@@ -52,6 +52,16 @@ public partial class AddProduct : ContentPage
         {
             product.ImageSource = FileName.Text;
         }
+        try
+        {
+            product.Threshold = int.Parse(Threshold.Text);
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Error","Threshold Must be a number","OK");
+            Console.WriteLine(ex.Message);
+            return;
+        }
         DatabaseTransactions.AddProduct(product);
         await Navigation.PopModalAsync();
 

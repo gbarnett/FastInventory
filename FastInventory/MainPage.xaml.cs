@@ -1,6 +1,7 @@
 ﻿using FastInventory.Classes;
 using FastInventory.DatabaseWork;
 using System.Collections.ObjectModel;
+using System.Drawing;
 
 namespace FastInventory
 {
@@ -26,6 +27,11 @@ namespace FastInventory
             AssetList = new ObservableCollection<Product>(productList);
             await GetCounts();
             ItemLists.ItemsSource = AssetList;
+        }
+
+        public async Task UpdateCounts()
+        {
+            AssetList[1].Count += 1;
         }
 
         private async void Add_New_Button_Clicked(object sender, EventArgs e)

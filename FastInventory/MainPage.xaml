@@ -10,7 +10,7 @@
             MaximumWidthRequest="150"
             x:Name="Add_New_Button"
             Clicked="Add_New_Button_Clicked"/>
-            <CollectionView x:Name="ItemLists" ItemsSource="{Binding Product}">
+            <CollectionView x:Name="ItemLists">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"
                              Span="5"
@@ -19,7 +19,7 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Border Stroke="Black" StrokeThickness="2" Padding="10">
+                        <Border x:Name="ItemBorder" Stroke="Black" StrokeThickness="2" Padding="10" BackgroundColor="{Binding BackgroundColor}">
                             <VerticalStackLayout Spacing="10">
                                 <Label Text="{Binding Model}" FontSize="16" FontAttributes="Bold" x:Name="ModelName" HorizontalOptions="Center"/>
                                 <Button x:Name="RemoveItemButton" MaximumHeightRequest="5" HorizontalOptions="End" VerticalOptions="Start" ImageSource="minusbutton.png" BackgroundColor="Transparent" CommandParameter="{Binding}" Clicked="RemoveItemButton_Clicked"/>

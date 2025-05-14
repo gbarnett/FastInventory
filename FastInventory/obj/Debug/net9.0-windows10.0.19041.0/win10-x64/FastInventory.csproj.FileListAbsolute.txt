@@ -970,3 +970,11 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.winmd
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dp_cable.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hdmi_cable.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hp_keyboard.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hp_mouse.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dp_cable.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hdmi_cable.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hp_keyboard.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hp_mouse.scale-100.png

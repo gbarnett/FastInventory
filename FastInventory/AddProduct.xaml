@@ -11,6 +11,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -61,10 +62,19 @@
             VerticalOptions="Center"
             HorizontalOptions="Center"/>
         </HorizontalStackLayout>
+
+        <HorizontalStackLayout Grid.Row="4" Grid.Column="1" HorizontalOptions="Center">
+            <Entry x:Name="Threshold"
+                   Placeholder="Threshold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   MinimumWidthRequest="200"
+                   HorizontalTextAlignment="Center"/>
+        </HorizontalStackLayout>
         
         <HorizontalStackLayout
             Spacing="150"
-            Grid.Row="4"
+            Grid.Row="5"
             Grid.Column="1"
             HorizontalOptions="Center"
             VerticalOptions="Center">
