@@ -10,7 +10,7 @@
             MaximumWidthRequest="150"
             x:Name="Add_New_Button"
             Clicked="Add_New_Button_Clicked"/>
-            <CollectionView x:Name="ItemLists">
+            <CollectionView x:Name="ItemLists" ItemsSource="{Binding AssetList}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"
                              Span="5"

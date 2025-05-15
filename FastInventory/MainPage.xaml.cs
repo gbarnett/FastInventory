@@ -12,6 +12,7 @@ namespace FastInventory
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = this;
             CheckData();
             LoadAssets();
         }
@@ -24,10 +25,40 @@ namespace FastInventory
         public async Task LoadAssets()
         {
             List<Product> productList = await DatabaseTransactions.GetProductsAsync();
-            AssetList = new ObservableCollection<Product>(productList);
-            await GetCounts();
-            ItemLists.ItemsSource = AssetList;
+
+            // Update counts for products in the DB list
+            foreach (var product in productList)
+            {
+                product.Count = await ItemCounts.GetProductCount(product.Model);
+            }
+
+            // Synchronize AssetList with productList without clearing
+            foreach (var product in productList)
+            {
+                var existing = AssetList.FirstOrDefault(p => p.Model == product.Model);
+                if (existing != null)
+                {
+                    existing.Count = product.Count;
+                    existing.ImageSource = product.ImageSource;
+                    existing.Threshold = product.Threshold;
+                    // Raise property changed if needed
+                }
+                else
+                {
+                    AssetList.Add(product);
+                }
+            }
+
+            // Remove products that are no longer present
+            for (int i = AssetList.Count - 1; i >= 0; i--)
+            {
+                if (!productList.Any(p => p.Model == AssetList[i].Model))
+                {
+                    AssetList.RemoveAt(i);
+                }
+            }
         }
+
 
         public async Task UpdateCounts()
         {
@@ -65,7 +96,7 @@ namespace FastInventory
                     asset.SerialNumber = serialNumber;
                     asset.Model = product.Model;
                     asset.InStock = 1;
-                    DatabaseTransactions.AddAsset(asset);
+                    await DatabaseTransactions.AddAsset(asset);
                     await LoadAssets();
 
                 }
@@ -75,7 +106,7 @@ namespace FastInventory
                 AssetItem asset = new AssetItem();
                 asset.Model = product.Model;
                 asset.InStock = 1;
-                DatabaseTransactions.AddAsset(asset);
+                await DatabaseTransactions.AddAsset(asset);
                 await LoadAssets();
 
             }

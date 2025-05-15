@@ -1,17 +1,13 @@
 ﻿using FastInventory.DatabaseWork;
 using SQLite;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
+using Microsoft.Maui.Graphics; // Ensure this namespace is used for Color
 
 namespace FastInventory.Classes
 {
-    public class Product
+    public class Product : INotifyPropertyChanged
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
@@ -25,11 +21,24 @@ namespace FastInventory.Classes
         [Column("ImageSource")]
         public string ImageSource { get; set; }
 
-        [Column("Count")]
-        public int Count { get; set; }
-
         [Column("Threshold")]
         public int Threshold { get; set; }
+
+        private int count;
+        [Column("Count")]
+        public int Count
+        {
+            get => count;
+            set
+            {
+                if (count != value)
+                {
+                    count = value;
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(BackgroundColor)); // update UI when color condition changes
+                }
+            }
+        }
 
         public Color BackgroundColor => Count <= Threshold ? Colors.Red : Colors.Transparent;
 
