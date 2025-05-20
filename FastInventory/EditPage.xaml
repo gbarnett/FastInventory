@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FastInventory.EditPage"
+             Title="EditPage">
+    <ScrollView>
+        <Grid RowSpacing="25" Padding="10" VerticalOptions="Center">
+            <!-- Define the grid structure -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <VerticalStackLayout Grid.Row="0" Grid.Column="1" Padding="0" Spacing="25" Margin="0,0,0,50">
+                <Label
+                HorizontalOptions="Center"
+                Text="Name:"
+                Padding="10"/>
+                <Entry
+                MaximumWidthRequest="500"
+                MinimumWidthRequest="300"
+                HorizontalOptions="Center"
+                x:Name="Name_Text_Box"/>
+                <Label
+                HorizontalOptions="Center"
+                Text="Shelf Label:"
+                Padding="10"/>
+                <Entry
+                    MaximumWidthRequest="100"
+                    MinimumWidthRequest="50"
+                    x:Name="Shelf_Text_Box"/>
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Quantity:"
+                    Padding="10"/>
+                <Entry
+                    MaximumWidthRequest="100"
+                    MinimumWidthRequest="50"
+                    x:Name="Quantity_Text_Box"/>
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                    <Button
+                    Text="Submit"
+                    HorizontalOptions="Start"
+                    MaximumWidthRequest="200"
+                    MinimumWidthRequest="200"
+                    VerticalOptions="Start"
+                    x:Name="Sumbit_Button"
+                    Clicked="Sumbit_Button_Clicked"/>
+                    <Button
+                    Text="Cancel"
+                    HorizontalOptions="End"
+                    MinimumWidthRequest="200"
+                    VerticalOptions="Start"
+                    x:Name="Cancel_Button"
+                    Clicked="Cancel_Button_Clicked"/>
+
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

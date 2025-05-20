@@ -2,6 +2,7 @@
 using FastInventory.DatabaseWork;
 using System.Collections.ObjectModel;
 using System.Drawing;
+using System.Threading.Tasks;
 
 namespace FastInventory
 {
@@ -67,6 +68,7 @@ namespace FastInventory
 
         private async void Add_New_Button_Clicked(object sender, EventArgs e)
         {
+            
             await Navigation.PushModalAsync(new AddProduct());
         }
 
@@ -166,6 +168,12 @@ namespace FastInventory
             string list = string.Join("\n", items.Select(item => $"{item.Model} - {item.SerialNumber}"));
 
             await DisplayAlert(product.Model, list, "OK");
+        }
+
+        private async void EditButton_Clicked(object sender, EventArgs e)
+        {
+            var product = (sender as Button).CommandParameter as Product;
+            await Navigation.PushModalAsync(new EditPage(product));
         }
     }
 }

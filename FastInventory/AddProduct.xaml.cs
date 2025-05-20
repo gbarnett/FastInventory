@@ -52,6 +52,7 @@ public partial class AddProduct : ContentPage
         {
             product.ImageSource = FileName.Text;
         }
+        product.ShelfLabel = ShelfLabel.Text;
         try
         {
             product.Threshold = int.Parse(Threshold.Text);

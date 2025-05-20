@@ -12,6 +12,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -43,7 +44,8 @@
             x:Name="FileName"
             HorizontalOptions="Center"
             VerticalOptions="Center"
-            MinimumWidthRequest="300"/>
+            MinimumWidthRequest="300"
+            MaximumWidthRequest="300"/>
             <Button
                 Text="Browse"
                 MaximumWidthRequest="200"
@@ -63,18 +65,43 @@
             HorizontalOptions="Center"/>
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout Grid.Row="4" Grid.Column="1" HorizontalOptions="Center">
+        <HorizontalStackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
+
+            <Label 
+                Text="Threshold:"
+                VerticalOptions="Center"
+                FontSize="16"
+                HorizontalOptions="Start"
+                />
+
             <Entry x:Name="Threshold"
-                   Placeholder="Threshold"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
-                   MinimumWidthRequest="200"
-                   HorizontalTextAlignment="Center"/>
+                   MinimumWidthRequest="100"
+                   HorizontalTextAlignment="Center"
+                   Margin="20"/>
         </HorizontalStackLayout>
-        
+
+        <HorizontalStackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
+
+            <Label 
+                Text="Shelf Label:"
+                VerticalOptions="Center"
+                FontSize="16"
+                HorizontalOptions="Start"
+                />
+
+            <Entry x:Name="ShelfLabel"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                MinimumWidthRequest="100"
+                HorizontalTextAlignment="Center"
+                Margin="20"/>
+        </HorizontalStackLayout>
+
         <HorizontalStackLayout
             Spacing="150"
-            Grid.Row="5"
+            Grid.Row="6"
             Grid.Column="1"
             HorizontalOptions="Center"
             VerticalOptions="Center">

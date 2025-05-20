@@ -24,6 +24,9 @@ namespace FastInventory.Classes
         [Column("Threshold")]
         public int Threshold { get; set; }
 
+        [Column("ShelfLabel")]
+        public string ShelfLabel { get; set; }
+
         private int count;
         [Column("Count")]
         public int Count
