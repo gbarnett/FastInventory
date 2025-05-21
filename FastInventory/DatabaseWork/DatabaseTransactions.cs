@@ -90,6 +90,57 @@ namespace FastInventory.DatabaseWork
                 conn.Insert(product);
             }
         }
+
+        public static async Task UpdateProductName(Product product, string newName, string oldName)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var list = conn.Table<Product>().Where(p => p.Model == oldName).ToList();
+                foreach (var item in list)
+                {
+                    item.Model = newName;
+                    conn.Update(item);
+                }
+            }
+        }
+
+        public static async Task UpdateProduct(Product product)  // FIX HOW THE DB STORES PRODUCT COUNTS AND HOW THE PROGRAM ACTUALLY STORES COUNTS.  CURRENTLY IT STORES COUNT IN A COUNT ATTRIBUUTE HOWEVER SHOULD BE THE TOTAL NUMBER OF ASSETS AND PRODUCTS IN THE DB
+        {
+            var count = await ItemCounts.GetProductCount(product.Model);
+            if (count < product.Count)
+            {
+                var difference = product.Count - count;
+                for (int x = 0; x < difference; x++)
+                {
+                    await AddProduct(product);
+                }
+                using (var conn = new SQLiteConnection(DBPath))
+                {
+                    product.Count = difference;
+                    conn.Update(product);
+                }
+            }
+            if (count > product.Count)
+            {
+                var differnce = count - product.Count;
+                for (int x = 0; x < differnce; x++)
+                {
+                    await RemoveNonSerializedAsset(product.Model);
+                }
+                using (var conn = new SQLiteConnection(DBPath))
+                {
+                    conn.Update(product);
+                }
+            }
+            else
+            {
+                using (var conn = new SQLiteConnection(DBPath))
+                {
+                    conn.Update(product);
+                }
+            }
+            
+        }
         public async static Task RemoveFirstAssetByName(string model)
         {
             using (var conn = new SQLiteConnection(DBPath))

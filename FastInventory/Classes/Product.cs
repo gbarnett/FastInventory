@@ -12,8 +12,22 @@ namespace FastInventory.Classes
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
 
+
+        private string model;
+
         [Column("Model")]
-        public string Model { get; set; }
+        public string Model
+        {
+            get => model;
+            set
+            {
+                if (model != value)
+                {
+                    model = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         [Column("IsAsset")]
         public int IsAsset { get; set; }
@@ -24,8 +38,21 @@ namespace FastInventory.Classes
         [Column("Threshold")]
         public int Threshold { get; set; }
 
+        private string shelfLabel;
+
         [Column("ShelfLabel")]
-        public string ShelfLabel { get; set; }
+        public string ShelfLabel
+        {
+            get => shelfLabel;
+            set
+            {
+                if (shelfLabel != value)
+                {
+                    shelfLabel = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         private int count;
         [Column("Count")]
