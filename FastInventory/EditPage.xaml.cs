@@ -1,5 +1,6 @@
 using FastInventory.Classes;
 using FastInventory.DatabaseWork;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
 namespace FastInventory;
@@ -8,6 +9,7 @@ public partial class EditPage : ContentPage
 {
 
     Product productToEdit = new Product();
+
     public EditPage(Product product)
 	{
 		InitializeComponent();
@@ -63,5 +65,9 @@ public partial class EditPage : ContentPage
     public async Task Go_Back_Home()
     {
         await Navigation.PopModalAsync();
+        if (Application.Current.MainPage is NavigationPage navPage && navPage.CurrentPage is MainPage mainPage)
+        {
+            await mainPage.LoadAssets();
+        }
     }
 }

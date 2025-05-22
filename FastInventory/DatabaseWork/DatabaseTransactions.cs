@@ -101,6 +101,12 @@ namespace FastInventory.DatabaseWork
                     item.Model = newName;
                     conn.Update(item);
                 }
+                var assetItemList = conn.Table<AssetItem>().Where(a => a.Model == oldName).ToList();
+                foreach (var item in assetItemList)
+                {
+                    item.Model = newName;
+                    conn.Update(item);
+                }
             }
         }
 
@@ -112,13 +118,16 @@ namespace FastInventory.DatabaseWork
                 var difference = product.Count - count;
                 for (int x = 0; x < difference; x++)
                 {
-                    await AddProduct(product);
+                    AssetItem asset = new AssetItem();
+                    asset.Model = product.Model;
+                    asset.InStock = 1;
+                    await DatabaseTransactions.AddAsset(asset);
                 }
-                using (var conn = new SQLiteConnection(DBPath))
-                {
-                    product.Count = difference;
-                    conn.Update(product);
-                }
+                //using (var conn = new SQLiteConnection(DBPath))
+                //{
+                //    product.Count = difference;
+                //    conn.Update(product);
+                //}
             }
             if (count > product.Count)
             {
