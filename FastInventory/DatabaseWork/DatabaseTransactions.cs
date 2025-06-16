@@ -110,6 +110,19 @@ namespace FastInventory.DatabaseWork
             }
         }
 
+        public static bool CheckDuplicateSerialNumber(string serialNumber)
+        {
+            using (var conn = new SQLiteConnection(DBPath))
+            {
+                var asset = conn.Table<AssetItem>().Where(s => s.SerialNumber == serialNumber).FirstOrDefault();
+                if (asset != null)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public static async Task UpdateProduct(Product product)  // FIX HOW THE DB STORES PRODUCT COUNTS AND HOW THE PROGRAM ACTUALLY STORES COUNTS.  CURRENTLY IT STORES COUNT IN A COUNT ATTRIBUUTE HOWEVER SHOULD BE THE TOTAL NUMBER OF ASSETS AND PRODUCTS IN THE DB
         {
             var count = await ItemCounts.GetProductCount(product.Model);

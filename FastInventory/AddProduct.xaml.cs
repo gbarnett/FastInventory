@@ -21,7 +21,7 @@ public partial class AddProduct : ContentPage
     private void LoadImageOptions()
     {
         ImageOptions.Clear();
-        var imageNames = new List<string> { "ethernet.png", "radio.png", "scanning.png", "computer.png", "laptop.png", "monitor.png", "usbcable.png", "display.png", "key.png", "tablet.png"};
+        var imageNames = new List<string> { "ethernet.png", "radio.png", "scanning.png", "computer.png", "laptop.png", "monitor.png", "usbcable.png", "display.png", "key.png", "tablet.png", "printer.png"};
         foreach (var name in imageNames)
         {
             ImageOptions.Add(new ImageOption { ImageName = name, isSelected = false });

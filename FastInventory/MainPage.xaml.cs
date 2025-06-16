@@ -97,9 +97,17 @@ namespace FastInventory
                     AssetItem asset = new AssetItem();
                     asset.SerialNumber = serialNumber;
                     asset.Model = product.Model;
-                    asset.InStock = 1;
-                    await DatabaseTransactions.AddAsset(asset);
-                    await LoadAssets();
+                    asset.InStock = 1; // here is where the prompt will go for checking for duplicate serial numbers
+                    if (DatabaseTransactions.CheckDuplicateSerialNumber(serialNumber))
+                    {
+                        await DisplayAlert("Error", "This serial number already exists.", "OK");
+                        return;
+                    }
+                    else
+                    {
+                        await DatabaseTransactions.AddAsset(asset);
+                        await LoadAssets();
+                    }
 
                 }
             }
