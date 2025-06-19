@@ -128,7 +128,7 @@ namespace FastInventory
 
             if (product.IsAsset == 1)
             {
-                string serialNumber = await DisplayPromptAsync("Remove Item", "Enter Serial Number", "OK", "Cancel", null, 100, Keyboard.Default, "");
+                string serialNumber = await DisplayPromptAsync("Remove Item", "Enter Serial Number", "OK", "Cancel", null, 100, Keyboard.Chat, "");
                 if (!String.IsNullOrEmpty(serialNumber))
                 {
                     AssetItem asset = new AssetItem();
