@@ -60,12 +60,6 @@ namespace FastInventory
             }
         }
 
-
-        public async Task UpdateCounts()
-        {
-            AssetList[1].Count += 1;
-        }
-
         private async void Add_New_Button_Clicked(object sender, EventArgs e)
         {
             
@@ -78,48 +72,43 @@ namespace FastInventory
             await LoadAssets(); // Refresh the list when returning to this page
         }
 
-        private async Task GetCounts()
-        {
-            foreach (var item in AssetList)
-            {
-                item.Count = await ItemCounts.GetProductCount(item.Model);
-            }
-        }
-
         private async void Product_Add_Button_Clicked(object sender, EventArgs e)
         {
+           //var product = (sender as Button).CommandParameter as Product;
+           //if (product.IsAsset == 1)
+           //{
+           //    string serialNumber = await DisplayPromptAsync("Add Item", "Enter Serial Number", "OK", "Cancel", null, 100, Keyboard.Default, "");
+           //    if (!String.IsNullOrEmpty(serialNumber))
+           //    {
+           //        AssetItem asset = new AssetItem();
+           //        asset.SerialNumber = serialNumber;
+           //        asset.Model = product.Model;
+           //        asset.InStock = 1; // here is where the prompt will go for checking for duplicate serial numbers
+           //        if (DatabaseTransactions.CheckDuplicateSerialNumber(serialNumber))
+           //        {
+           //            await DisplayAlert("Error", "This serial number already exists.", "OK");
+           //            return;
+           //        }
+           //        else
+           //        {
+           //            await DatabaseTransactions.AddAsset(asset);
+           //            await LoadAssets();
+           //        }
+           //
+           //    }
+           //}
+           //else
+           //{
+           //    AssetItem asset = new AssetItem();
+           //    asset.Model = product.Model;
+           //    asset.InStock = 1;
+           //    await DatabaseTransactions.AddAsset(asset);
+           //    await LoadAssets();
+           //
+           //}
+
             var product = (sender as Button).CommandParameter as Product;
-            if (product.IsAsset == 1)
-            {
-                string serialNumber = await DisplayPromptAsync("Add Item", "Enter Serial Number", "OK", "Cancel", null, 100, Keyboard.Default, "");
-                if (!String.IsNullOrEmpty(serialNumber))
-                {
-                    AssetItem asset = new AssetItem();
-                    asset.SerialNumber = serialNumber;
-                    asset.Model = product.Model;
-                    asset.InStock = 1; // here is where the prompt will go for checking for duplicate serial numbers
-                    if (DatabaseTransactions.CheckDuplicateSerialNumber(serialNumber))
-                    {
-                        await DisplayAlert("Error", "This serial number already exists.", "OK");
-                        return;
-                    }
-                    else
-                    {
-                        await DatabaseTransactions.AddAsset(asset);
-                        await LoadAssets();
-                    }
 
-                }
-            }
-            else
-            {
-                AssetItem asset = new AssetItem();
-                asset.Model = product.Model;
-                asset.InStock = 1;
-                await DatabaseTransactions.AddAsset(asset);
-                await LoadAssets();
-
-            }
         }
 
         private async void Product_Remove_Button_Clicked(object sender, EventArgs e)

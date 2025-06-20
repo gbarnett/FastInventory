@@ -29,9 +29,6 @@ namespace FastInventory.Classes
             }
         }
 
-        [Column("IsAsset")]
-        public int IsAsset { get; set; }
-
         [Column("ImageSource")]
         public string ImageSource { get; set; }
 

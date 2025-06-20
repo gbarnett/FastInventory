@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "geBg1aPsKSQ=",
+  "dgSpecHash": "RJhHSMDO2Hs=",
   "success": true,
   "projectFilePath": "C:\\Users\\garpbarn\\Documents\\GitHubProjects\\FastInventory\\FastInventory\\FastInventory.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\garpbarn\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\garpbarn\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\garpbarn\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\garpbarn\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.maccatalyst-x64\\9.0.6\\microsoft.netcore.app.runtime.mono.maccatalyst-x64.9.0.6.nupkg.sha512",
     "C:\\Users\\garpbarn\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
