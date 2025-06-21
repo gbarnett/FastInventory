@@ -4,59 +4,36 @@
              x:Class="FastInventory.AddProduct"
              Title="AddProduct">
     <ScrollView>
-        <Grid RowSpacing="50">
+        <Grid RowSpacing="75">
         <!-- Define the grid structure -->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".1*"/>
+                <RowDefinition Height=".1*"/>
+                <RowDefinition Height=".1*"/>
+                <RowDefinition Height=".25*"/>
+                <RowDefinition Height=".45*"/>
+            </Grid.RowDefinitions>
 
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+            
+            <VerticalStackLayout Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start" Spacing="20">
+                
+                <Label 
+                    Text="Add New Item"
+                    FontSize="30"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"/>
 
-        <Label 
-            Text="Add New Item"
-            FontSize="30"
-            VerticalOptions="Start" 
-            HorizontalOptions="Center"
-            Padding="100"
-            Grid.Row="0"
-            Grid.Column="1"/>
-
-        <Entry 
-            Placeholder="Item Model"
-            x:Name="ModelName"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            MinimumWidthRequest="300"
-            Grid.Row="1"
-            Grid.Column="1"/>
-        <!-- <HorizontalStackLayout Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" Spacing="15" Grid.ColumnSpan="1">
-            <Entry
-            Placeholder="Image Path"
-            x:Name="FileName"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            MinimumWidthRequest="300"
-            MaximumWidthRequest="300"/>
-            <Button
-                Text="Browse"
-                MaximumWidthRequest="200"
-                x:Name="BrowseButon"
-                Clicked="BrowseButon_Clicked"/>
-        </HorizontalStackLayout> -->
-
-        <ScrollView Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalScrollBarVisibility="Always">
-            <CollectionView 
+                <Entry 
+                    Placeholder="Item Model"
+                    x:Name="ModelName"
+                    MinimumWidthRequest="300"/>
+                
+            </VerticalStackLayout>
+            
+            <ScrollView Grid.Row="2" HorizontalOptions="Center" Orientation="Horizontal" HorizontalScrollBarVisibility="Always" VerticalOptions="Start">
+                <CollectionView 
                 x:Name="ImageOptionsView"
                 ItemsSource="{Binding ImageOptions}"
                 SelectionMode="Single"
@@ -65,83 +42,72 @@
                 HorizontalScrollBarVisibility="Always"
                 SelectionChanged="ImageOptionsView_SelectionChanged"
                 >
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Border Padding="5" Margin="5" BackgroundColor="Transparent" StrokeLineJoin="Round" StrokeLineCap="Round" StrokeShape="RoundRectangle 10,10,10,10" Stroke="White">
-                            <Grid>
-                                <Image Source="{Binding ImageName}" WidthRequest="80" HeightRequest="80" BackgroundColor="Transparent"/>
-                            </Grid>
-                        </Border>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </ScrollView>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="5" Margin="5" BackgroundColor="Transparent" StrokeLineJoin="Round" StrokeLineCap="Round" StrokeShape="RoundRectangle 10,10,10,10" Stroke="White">
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup Name="CommonStates">
+                                        <VisualState Name="Normal">
+                                            <VisualState.Setters>
+                                                <Setter Property="BackgroundColor" Value="Transparent"/>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                        <VisualState Name="Selected">
+                                            <VisualState.Setters>
+                                                <Setter Property="BackgroundColor" Value="#fcffeb"/>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <Grid>
+                                    <Image Source="{Binding ImageName}" WidthRequest="90" HeightRequest="125" BackgroundColor="Transparent"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
 
-        <HorizontalStackLayout Grid.Row="4" Grid.Column="1" HorizontalOptions="Center">
-            <Label
-            Text="Serialized?"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            FontSize="20"/>
+            <VerticalStackLayout Grid.Row="3" HorizontalOptions="Center" Spacing="20" VerticalOptions="Start">
 
-            <CheckBox
-            x:Name="Serialized"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"/>
-        </HorizontalStackLayout>
+                <Label 
+                    Text="Threshold:"
+                    FontSize="16"
+                    HorizontalOptions="Center"/>
 
-        <HorizontalStackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
-
-            <Label 
-                Text="Threshold:"
-                VerticalOptions="Center"
-                FontSize="16"
-                HorizontalOptions="Start"
-                />
-
-            <Entry x:Name="Threshold"
+                <Entry x:Name="Threshold"
                    HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    MinimumWidthRequest="100"
-                   HorizontalTextAlignment="Center"
-                   Margin="20"/>
-        </HorizontalStackLayout>
+                   HorizontalTextAlignment="Center"/>
 
-        <HorizontalStackLayout Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
+                <Label 
+                    Text="Shelf Label:"
+                    VerticalOptions="Center"
+                    FontSize="16"
+                    HorizontalOptions="Start"/>
 
-            <Label 
-                Text="Shelf Label:"
-                VerticalOptions="Center"
-                FontSize="16"
-                HorizontalOptions="Start"
-                />
+                <Entry x:Name="ShelfLabel"
+                    MinimumWidthRequest="100"
+                    HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
 
-            <Entry x:Name="ShelfLabel"
+            <HorizontalStackLayout
+                Spacing="45"
+                Grid.Row="4"
                 HorizontalOptions="Center"
-                VerticalOptions="Center"
-                MinimumWidthRequest="100"
-                HorizontalTextAlignment="Center"
-                Margin="20"/>
-        </HorizontalStackLayout>
-
-        <HorizontalStackLayout
-            Spacing="150"
-            Grid.Row="7"
-            Grid.Column="1"
-            HorizontalOptions="Center"
-            VerticalOptions="Center">
-            <Button
-                x:Name="Submit"
-                Text="Submit"
-                MinimumWidthRequest="200"
-                HorizontalOptions="Center"
-                Clicked="Submit_Clicked"/>
-            <Button
-                x:Name="Cancel"
-                Text="Cancel"
-                MinimumWidthRequest="200"
-                Clicked="Cancel_Clicked"/>
-        </HorizontalStackLayout>
+                VerticalOptions="Start">
+                <Button
+                    x:Name="Submit"
+                    Text="Submit"
+                    MinimumWidthRequest="200"
+                    HorizontalOptions="Center"
+                    Clicked="Submit_Clicked"/>
+                <Button
+                    x:Name="Cancel"
+                    Text="Cancel"
+                    MinimumWidthRequest="200"
+                    Clicked="Cancel_Clicked"/>
+            </HorizontalStackLayout>
     </Grid>
     </ScrollView>
 </ContentPage>

@@ -52,19 +52,6 @@ namespace FastInventory.DatabaseWork
             return false;
         }
 
-        public static async Task UpdateProductName(Product product, string newName, string oldName)
-        {
-            using (var conn = new SQLiteConnection(DBPath))
-            {
-                var existingProduct = conn.Table<Product>().Where(p -> p.Model == oldName).FirstOrDefault();
-                if (existingProduct != null)
-                {
-                    existingProduct.Model = newName;
-                    conn.Update(existingProduct);
-                }
-            }
-        }
-
         public static bool UpdateProduct(Product product)  // No longer creating a new product and adding it to the database, just updating the count and other properties of the existing product
         {
 

@@ -58,14 +58,6 @@ public partial class AddProduct : ContentPage
     {
         Product product = new Product();
         product.Model = ModelName.Text;
-        if (Serialized.IsChecked)
-        {
-            product.IsAsset = 1;
-        }
-        else
-        {
-            product.IsAsset = 0;
-        }
         product.ImageSource = _selectedImage;
         product.ShelfLabel = ShelfLabel.Text;
         try
@@ -74,7 +66,7 @@ public partial class AddProduct : ContentPage
         }
         catch (Exception ex)
         {
-            DisplayAlert("Error","Threshold Must be a number","OK");
+            await DisplayAlert("Error","Threshold Must be a number","OK");
             Console.WriteLine(ex.Message);
             return;
         }
@@ -88,6 +80,7 @@ public partial class AddProduct : ContentPage
         if (e.CurrentSelection.FirstOrDefault() is ImageOption selected)
         {
             _selectedImage = selected.ImageName;
+            
         }
     }
 }
