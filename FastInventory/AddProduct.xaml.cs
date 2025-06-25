@@ -21,27 +21,14 @@ public partial class AddProduct : ContentPage
     private void LoadImageOptions()
     {
         ImageOptions.Clear();
-        var imageNames = new List<string> { "ethernet.png", "radio.png", "scanning.png", "computer.png", "laptop.png", "monitor.png", "usbcable.png", "display.png", "key.png", "tablet.png", "printer.png"};
+        var imageNames = new List<string> { "battery.png" , "computer.png" , "display.png" , 
+            "ethernet.png" ,"handscanner.png" , "headphones.png" , "key.png" , "laptop.png" , 
+            "mobilescanner.png" , "monitor.png" , "phonescanner.png" , "printer.png" , 
+            "radio.png" , "scanning.png" , "tablet.png" , "thinclient.png" , "usbcable.png", "usbdrive.png"};
         foreach (var name in imageNames)
         {
             ImageOptions.Add(new ImageOption { ImageName = name, isSelected = false });
         }
-    }
-
-
-    private async void BrowseButon_Clicked(object sender, EventArgs e)
-    {
-        var result = await FilePicker.PickAsync(new PickOptions
-        {
-            FileTypes = FilePickerFileType.Images,
-            PickerTitle = "Pick a picture"
-        });
-        if (result != null)
-        {
-            string filepath = result.FullPath;
-            //FileName.Text = filepath;
-        }
-        
     }
 
     private void Submit_Clicked(object sender, EventArgs e)
@@ -60,6 +47,11 @@ public partial class AddProduct : ContentPage
         product.Model = ModelName.Text;
         product.ImageSource = _selectedImage;
         product.ShelfLabel = ShelfLabel.Text;
+        if (ShelfLabel.Text.Length > 10)
+        {
+            await DisplayAlert("Error", "Shelf Label Must not Exceed 10 charcters","OK");
+            return;
+        }
         try
         {
             product.Threshold = int.Parse(Threshold.Text);

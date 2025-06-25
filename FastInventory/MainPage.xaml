@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
-            x:Class="FastInventory.MainPage">  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"   
+             x:Class="FastInventory.MainPage">  
    <ScrollView>  
        <VerticalStackLayout>  
            <Button  
@@ -19,9 +19,10 @@
                </CollectionView.ItemsLayout>  
                <CollectionView.ItemTemplate>  
                    <DataTemplate>  
-                       <Border x:Name="ItemBorder" Stroke="Black" StrokeThickness="2" Padding="10" BackgroundColor="{Binding BackgroundColor}">  
-                           <VerticalStackLayout Spacing="10">  
-                               <Label Text="{Binding Model}" FontSize="16" FontAttributes="Bold" x:Name="ModelName" HorizontalOptions="Center"/>  
+                       <Border x:Name="ItemBorder" Stroke="Black" StrokeThickness="2" Padding="10" BackgroundColor="{Binding BackgroundColor}">
+                            <ScrollView>
+                                <VerticalStackLayout Spacing="10">  
+                               <Label Text="{Binding Model}" FontSize="32" FontAttributes="Bold" x:Name="ModelName" HorizontalOptions="Center"/>  
                                <Label Text="{Binding ShelfLabel}" FontSize="24" FontAttributes="Bold" x:Name="ShelfLabel" HorizontalOptions="Center"/>  
                                <Grid>  
                                    <Grid.ColumnDefinitions>  
@@ -34,8 +35,9 @@
                                <Button ImageSource="{Binding ImageSource}" HorizontalOptions="Center" MinimumHeightRequest="250" MaximumHeightRequest="250" VerticalOptions="End" BackgroundColor="Transparent" x:Name="Product_Add_Button" Clicked="Product_Add_Button_Clicked" CommandParameter="{Binding}"/>  
                                <Label Text="{Binding Count}" FontSize="24" HorizontalOptions="Center" x:Name="ProductCountLabel"/>  
                                <Button Text="Remove" MaximumWidthRequest="150" FontAttributes="Bold" x:Name="Product_Remove_Button" Clicked="Product_Remove_Button_Clicked" CommandParameter="{Binding}"/>   
-                           </VerticalStackLayout>  
-                       </Border>  
+                           </VerticalStackLayout>
+                            </ScrollView>
+                        </Border>  
                    </DataTemplate>  
                </CollectionView.ItemTemplate>  
            </CollectionView>  

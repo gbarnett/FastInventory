@@ -504,21 +504,9 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hpelitebookg6laptop.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zq630_printer.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\lenovolaptop.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zukeyimage.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\thinclient.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\mc3000_scanner.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hp_mouse.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\zd620printer.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\tablet.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\minusbutton.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hp_keyboard.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\motoradios.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\editicon.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hdmi_cable.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dp_cable.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -630,21 +618,9 @@ C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-150.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-200.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconWideTile.scale-400.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dp_cable.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\editicon.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hdmi_cable.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hpelitebookg6laptop.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hp_keyboard.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\hp_mouse.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\lenovolaptop.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mc3000_scanner.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\minusbutton.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\motoradios.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\tablet.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\thinclient.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zd620printer.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zq630_printer.scale-100.png
-C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\zukeyimage.scale-100.png
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
 C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -1030,3 +1006,17 @@ D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.1904
 D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\radio.scale-100.png
 D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\scanning.scale-100.png
 D:\Coding Projects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\usbcable.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\battery.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\headphones.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\usbdrive.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\battery.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\headphones.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\usbdrive.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\handscanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\mobilescanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\handscanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\mobilescanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\phonescanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\phonescanner.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\thinclient.scale-100.png
+C:\Users\garpbarn\Documents\GitHubProjects\FastInventory\FastInventory\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\thinclient.scale-100.png

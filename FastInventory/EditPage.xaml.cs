@@ -32,6 +32,11 @@ public partial class EditPage : ContentPage
             string name = Name_Text_Box.Text;
             string shelf = Shelf_Text_Box.Text;
             int quantity = Quantity_Text_Box.Text == "" ? 0 : Convert.ToInt32(Quantity_Text_Box.Text);
+            if (shelf.Length > 10)
+            {
+                await DisplayAlert("Error", "Shelf Label must not exceed 10 characters.", "OK");
+                return;
+            }
             productToEdit.Model = name;
             productToEdit.ShelfLabel = shelf;
             productToEdit.Count = quantity;

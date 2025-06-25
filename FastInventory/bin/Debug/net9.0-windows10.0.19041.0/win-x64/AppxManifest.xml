@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.companyname.fastinventory" Publisher="CN=garpbarn" Version="0.0.6.0" ProcessorArchitecture="x64" />
+  <Identity Name="com.companyname.fastinventory" Publisher="CN=garpbarn" Version="0.0.7.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="6A502202-6FC3-48E4-9119-0D4400AC5237" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>FastInventory</DisplayName>
@@ -17,7 +17,7 @@
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.266.2241.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.401.2352.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
@@ -39,7 +39,7 @@
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
   <build:Metadata>
-    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2409" />
+    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2502" />
     <build:Item Name="makepri.exe" Version="10.0.22621.755 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>
