@@ -21,10 +21,9 @@ public partial class AddProduct : ContentPage
     private void LoadImageOptions()
     {
         ImageOptions.Clear();
-        var imageNames = new List<string> { "battery.png" , "computer.png" , "display.png" , 
-            "ethernet.png" ,"handscanner.png" , "headphones.png" , "key.png" , "laptop.png" , 
-            "mobilescanner.png" , "monitor.png" , "phonescanner.png" , "printer.png" , 
-            "radio.png" , "scanning.png" , "tablet.png" , "thinclient.png" , "usbcable.png", "usbdrive.png"};
+        var imageNames = new List<string> { "adapter.png" , "battery.png" , "display.png" , "displayport.png", 
+            "ethernet.png" ,"handscanner.png" , "hdmi.png" , "headphones.png" , "key.png" , 
+            "monitor.png" , "usbcable.png", "usbdrive.png"};
         foreach (var name in imageNames)
         {
             ImageOptions.Add(new ImageOption { ImageName = name, isSelected = false });
